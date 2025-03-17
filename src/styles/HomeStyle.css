@@ -315,6 +315,46 @@
   font-size: 22px;
   font-weight: 700;
 }
+.main-menu-list{
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fffafb;
+  border-radius: 0.7rem;
+  padding: 20px;
+}
+.menu-list {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: contents;
+}
+
+.menu-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 3px 6px;
+}
+
+.text-danger {
+  font-size: 18px;
+}
+.menu-main-text{
+  text-align: center;
+}
+.menu-second{
+  background: #f9f6f4;
+  padding: 0.7rem;
+}
 
 /* Home Footer 9.0 */
 footer {

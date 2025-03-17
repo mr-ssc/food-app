@@ -34,6 +34,7 @@ const Section1 = () => {
             </div>
           </Col>
         </Row>
+        
       </Container>
     </section>
   );
