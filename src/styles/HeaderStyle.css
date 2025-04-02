@@ -84,6 +84,11 @@ header .roundpoint {
   right: -8px;
 }
 
+.profile{
+  font-size: 23px;
+    margin-top: -7px;
+}
+
 /* Media Query CSS */
 
 @media (max-width: 992px) {

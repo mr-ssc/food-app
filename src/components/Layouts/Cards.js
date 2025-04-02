@@ -1,8 +1,22 @@
 import React from "react";
 import { Col, Card } from "react-bootstrap";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { addToCart } from "../redux/CartSlice";
 
 function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
+  const dispatch = useDispatch();
+
+  const handleAddToCart = () => {
+    const product = {
+      id: Math.random(), // Generate a unique ID
+      name: title,
+      price: price,
+      image: image,
+    };
+    dispatch(addToCart(product));
+    console.log("Added to Cart:", product); // Debugging
+  };
   return (
     <Col sm={6} lg={4} xl={3} className="mb-4">
       <Card className="overflow-hidden">
@@ -25,7 +39,7 @@ function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
               <h5 className="mb-0">${price}</h5>
             </div>
             <div className="add_to_card">
-              <Link to="/">
+              <Link to="" onClick={handleAddToCart}>
                 <i class="bi bi-bag me-2"></i>
                 Add To Cart
               </Link>

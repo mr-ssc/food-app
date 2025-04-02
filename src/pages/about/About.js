@@ -11,28 +11,17 @@ function About() {
         <>
             <Header />
             <section className="hero_section">
-                <Container>
-                    <Row>
-                        <Col lg={7} className="mb-5 mb-lg-0">
-                            <div className="position-relative">
-                                <img src={burgger_king} className="" alt="Hero" />
-                            </div>
-                        </Col>
-                        <Col lg={5}>
-                            <div className="hero_text text-center">
-                                <h1 className="text-white">Earn
-                                    Crowns.</h1>
-                                <h2 className="text-white">Redeem
-                                    Rewards.</h2>
-                                <Link to="/" className="btn order_now">
-                                    Order Now
-                                </Link>
-                            </div>
-                        </Col>
-                    </Row>
-
-                </Container>
-            </section>
+                            <Container>
+                                <Row>
+                                    <Col lg={12}>
+                                        <div className="hero_text text-center">
+                                            <h1 className="text-white">Our About</h1>
+                                            <h2 className="text-white">Yummy & Wow Burger</h2>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </section>
             <section className="promotion_section">
                 <Container>
                     <Row className="align-items-center">

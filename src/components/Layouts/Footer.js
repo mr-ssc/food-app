@@ -90,7 +90,7 @@ function Footer() {
                 <ul className="list-unstyled text-center mb-0">
                   <li>
                     <Link to="/">
-                      © 2023 <span>SADIKALI KHORAJIYA</span>. All Rights Reserved
+                      © 2025 <span>SADIKALI KHORAJIYA</span>. All Rights Reserved
                     </Link>
                   </li>
                   <li>
