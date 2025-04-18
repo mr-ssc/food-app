@@ -1,3 +1,4 @@
+// blog.js
 import React from 'react'
 import Header from '../../components/Layouts/Header'
 import Footer from '../../components/Layouts/Footer'
