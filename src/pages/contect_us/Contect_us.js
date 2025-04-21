@@ -32,7 +32,7 @@ function Contect_us() {
                     >
                         📞 Contact <span className="text-danger">Us</span>
                     </motion.h2>
-
+{/* contact */}
                     <Row className="align-items-center">
                         {/* Contact Info */}
                         <Col lg={6} className="mb-4">
